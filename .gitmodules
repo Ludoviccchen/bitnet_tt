@@ -1,5 +1,5 @@
-[submodule "llm.c"]
-	path = llm.c
+[submodule "third_party/llm.c"]
+	path = third_party/llm.c
 	url = https://github.com/ludoviccchen/llm.c
 [submodule "third_party/Bitnet"]
 	path = third_party/Bitnet
