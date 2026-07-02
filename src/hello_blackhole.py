@@ -6,7 +6,7 @@ def main():
     
     # 1. Ouvrir la connexion avec le périphérique (Device 0)
     device_id = 0
-    device = ttnn.open_device(device_id)
+    device = ttnn.open_device(device_id=device_id)
     
     try:
         # 2. Créer des données sur le processeur hôte (CPU) via PyTorch
